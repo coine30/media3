@@ -494,13 +494,13 @@
   <div class="product-card floating" onclick="openProductModal('modal1')" data-aos="fade-up">
     <div class="card-title">
       <img src="https://img.icons8.com/color/48/zip--v1.png" width="24" alt="ZIP">
-      2GB Pack
+      5GB Pack
     </div>
-    <div class="product-offre">Today's Offer: <span>30% Off</span></div>
+    <div class="product-offre">Today's Offer: <span>40% Off</span></div>
     <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" class="zip-icon" alt="ZIP">
     <div class="file-type">
       <img src="https://img.icons8.com/color/48/video-file.png" width="24" alt="Video">
-      ZIP File (2GB)
+      ZIP File (5GB)
     </div>
     <div class="card-footer">Click for details</div>
   </div>
@@ -510,22 +510,22 @@
 <div id="modal1" class="modal">
   <div class="modal-content">
     <span class="close" onclick="closeProductModal('modal1')">&times;</span>
-    <div class="badge">🔥 30% Off</div>
+    <div class="badge">🔥 40% Off</div>
     <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" class="zip-icon floating" alt="ZIP">
     <div class="file-type">
       <img src="https://img.icons8.com/color/48/video-file.png" width="24" alt="Video">
-      ZIP File (2GB)
+      ZIP File (5GB)
     </div>
-    <p>This pack contains high-quality media files ready for immediate use in your projects.</p>
-    <p><strong>Content Details:</strong> 1 ready-to-use file containing 150+ high-quality video clips</p>
+    <p>This package contains high-quality media files ready to use.</p>
+    <p><strong>Content Details:</strong> 1 ready-to-use file containing 825+ high-quality video clips</p>
     <p><strong>File Format:</strong> ZIP (compressed for fast download)</p>
     <div class="price-box">
-      <div>Original Price: <strong style="text-decoration:line-through; color:#a3a3a3;">$45.99</strong></div>
-      <div>Discounted Price: <strong style="color:var(--highlight);">$33.33</strong></div>
+      <div>Original Price: <strong style="text-decoration:line-through; color:#a3a3a3;">$99.99</strong></div>
+      <div>Discounted Price: <strong style="color:var(--highlight);">$55.55</strong></div>
       <div class="secure-note">🔒 Secure Payment & Encrypted Delivery</div>
     </div>
-    <button class="pay-button pulse" onclick="handlePurchase(this, 'https://buy.stripe.com/28EcMY1se7hYc4Q54RfnO06')">
-      🔓 Unlock for $33.33
+    <button class="pay-button pulse" onclick="handlePurchase(this, 'https://buy.stripe.com/8x2bIU2wiaua9WIbtffnO03')">
+      🔓 Unlock for $55.55
     </button>
     <div class="trust-box">
       <div>✅ 7-Day Money Back Guarantee</div>
@@ -544,12 +544,12 @@
 <div style="margin: 40px auto; max-width: 540px;" data-aos="fade-up">
   <h3 style="color: #fff; font-weight: 600; text-align: center;">💬 Customer Reviews:</h3>
   <div class="testimonial">
-    "Excellent files, received them immediately after payment. The quality exceeded my expectations and the download was very fast. Highly recommended!"
+    _GOOD ... NO SCAM AND  HOT VEDIOS 
     <strong>- John from New York</strong>
   </div>
   <div class="testimonial">
-    "Great support and rich content for the price. I've bought several packs and they were all worth every penny. Will definitely buy again!"
-    <strong>- Sarah from London</strong>
+    _Great support and rich content for the price. I've bought several packs and they were all worth every penny. Will definitely buy again!
+    <strong>- Mario from London</strong>
   </div>
 </div>
 
@@ -634,13 +634,13 @@
   function resetPayButtons() {
     const buttons = document.querySelectorAll('.pay-button');
     buttons.forEach(btn => {
-      btn.innerHTML = '🛡️ Get Instant Access';
+      btn.innerHTML = '🔓 Unlock for $55.55';
       btn.disabled = false;
     });
   }
   
   function handlePurchase(btn, url) {
-    btn.innerHTML = '⬇️ Processing...';
+    btn.innerHTML = '⬇ Processing...';
     btn.disabled = true;
     
     const newWindow = window.open(url, '_blank');
@@ -649,7 +649,7 @@
     }
     
     setTimeout(() => {
-      btn.innerHTML = '🛡️ Get Instant Access';
+      btn.innerHTML = '🔓 Unlock for $55.55';
       btn.disabled = false;
     }, 3000);
   }
